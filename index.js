@@ -22,7 +22,7 @@ const io = new Server(expressServer, {
   cors: {
     origin:
       process.env.NODE_ENV === "production"
-        ? ["chat.pages.dev"]
+        ? ["https://chat-608.pages.dev"]
         : ["http://localhost:5500", "http://127.0.0.1:5500"],
   },
 });
